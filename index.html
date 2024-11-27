@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SOS App</title>
+  <!-- Linking the CSS file -->
+  <link rel="stylesheet" href="styles.css">
+  <b>Hello Everyone </b>
+</head>
+<body>
+  <!-- Container for the SOS button -->
+  <div class="app-container">
+    <button id="sos-button">SOS</button>
+  </div>
+  
+  <!-- Adding a script for button functionality -->
+  <script>
+    document.getElementById('sos-button').addEventListener('click', function() {
+      alert('SOS Activated!');
+      console.log('Sending alert...');
+      // Add your additional functionality here
+    });
+  </script>
+</body>
+</html>
